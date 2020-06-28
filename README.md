@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Resume Web App
+
+This project is a web app that uses Google's Firebase as backend and can be used as a personal website to display professional information, such as work experience, education, skills, etc.
+
+## Deploy your own instance
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Available Scripts
 

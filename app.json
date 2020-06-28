@@ -1,0 +1,19 @@
+{
+  "name": "Quick React CV",
+  "description": "Create your own professional website.",
+  "keywords": ["productivity", "React", "resume"],
+  "website": "https://github.com/dferndz/myreactcv",
+  "repository": "https://github.com/dferndz/myreactcv",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+
+  "env": {
+    "REACT_APP_CV_API": {
+      "description": "Your API key. Refer to the github Readme to obtain one."
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack.git#v6.0.0"
+    }
+  ]
+}
