@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import firebase from "firebase";
+import * as firebase from "firebase/app";
 import { CV, EmptyCv } from "../types";
 
 const CV_API_ID = process.env.REACT_APP_CV_API;
