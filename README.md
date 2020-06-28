@@ -6,7 +6,7 @@ This project is a web app that uses Google's Firebase as backend and can be used
 
 ### Obtain an API key
 
-It is important to obtain an api key before deploying your app.
+It is important to obtain an api key before deploying your app. Visit [My Resume App](https://myreactcv.herokuapp.com/get-api) to get an api key. This key is public, and it will be requested when using the Deploy to Heroku button. If you are not deploying to heroku, add the key the the enviroment where your app is running.
 
 ### Deploy to Heroku
 
@@ -68,6 +68,13 @@ You need to enable Google authentication in the Authentication tab in the Fireba
 
 In the Authentication tab, scroll down to Authorized domains and add your app's domain.
 
+#### Get your own api key to add to enviroment
+
+Even when configuring your own firebase backend, you need an api key for each user that connects a web app to your firebase account.
+To obtain an api key, go to http://your.domain.com/get-api and sign in with google to obtain an api key.
+
+## Developing locally
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -106,11 +113,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-```
-
-```
-
-```
-
-```
