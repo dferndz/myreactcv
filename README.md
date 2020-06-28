@@ -33,13 +33,30 @@ Replace the contents of the firebaseCOnfig variable with your own configuration.
 
 Set up the database access rules:
 
-`{ "rules": { "$api_id": { ".write": "auth.uid != null && auth.uid == $api_id", ".read": true } } }`
+````
+{
+  "rules": {
+    "$api_id": {
+      ".write": "auth.uid != null && auth.uid == $api_id",
+      ".read": true
+    }
+  }
+}```
 
 #### Storage
 
 Set up the storage access rules:
 
-`rules_version = '2'; service firebase.storage { match /b/{bucket}/o { match /images/{userId}/{allPaths=**} allow read; allow write: if request.auth != null && request.auth.uid == userId; } } }`
+```
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /images/{userId}/{allPaths=**} {
+      allow read;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}```
 
 #### Enable Google auth
 
@@ -87,3 +104,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+````
