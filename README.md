@@ -4,6 +4,12 @@ This project is a web app that uses Google's Firebase as backend and can be used
 
 ## Deploy your own instance
 
+### Obtain an API key
+
+It is important to obtain an api key before deploying your app.
+
+### Deploy to Heroku
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Available Scripts
