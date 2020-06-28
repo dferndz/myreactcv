@@ -1,7 +1,7 @@
 import React from "react";
-import "./theme/bootstrap.min.css";
-import "./theme/font.css";
-import Landing from "./features/Landing";
+import "../theme/bootstrap.min.css";
+import "../theme/font.css";
+import Landing from "../features/Landing";
 
 import firebase from "firebase";
 
