@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { CV, EmptyCv } from "../types";
 import Loading from "../components/Loading";
 import Sidebar from "../widgets/sidebar";
-import firebase from "firebase";
+import * as firebase from "firebase/app";
 
 import HomePage from "../pages/home";
 import AboutPage from "../pages/about";
