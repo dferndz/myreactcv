@@ -35,7 +35,6 @@ const PageContainer = () => {
       if (user) {
         if (user.uid === process.env.REACT_APP_CV_API) setAuth(true);
         else {
-          firebase.auth().signOut();
           setAlert({
             title: "Invalid credentials",
             description: "You do not own this website",
