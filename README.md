@@ -10,7 +10,7 @@ It is important to obtain an api key before deploying your app. Visit [My Resume
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dferndz/myreactcv)
 
 ## Running locally
 
